@@ -1,0 +1,49 @@
+header
+{
+    height: 5vh;
+    background-color:red;
+}
+
+nav
+{
+    height: 10vh;
+    background-color:yellow;
+}
+
+li
+{
+ display: inline-block;   
+}
+
+main
+{
+   display: grid;
+   grid-template-columns: auto auto;
+   grid-template-row:auto auto;
+   text-align: center;
+   height: 90vh;
+   background-color:gray;
+}
+section
+{
+    height: 10vh;
+    background-color:aquamarine;
+}
+
+footer
+{
+    height: 30vh;
+    background-color:lightgreen;
+}
+
+
+
+
+
+
+main div img
+{
+    height:200px;
+    width:200px;
+
+}

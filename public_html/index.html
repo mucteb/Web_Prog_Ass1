@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html id="mainHTML">
+    <head>
+        <title>Assignment 1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style/ass1_style.css" rel="stylesheet" type="text/css"/>
+        <script src="script/ass1_script.js" type="text/javascript"></script>
+    </head>
+    <body onload="load()">
+        <header>Beyond Holo</header>
+        <nav>
+            <ul>
+               <li> <a href="A2Content/a2content.html"> Assignment 2</a></li>
+               <li><a href="A3Content/a3content.html"> Assignment 3</a></li>
+               <li><a href="A4Content/a4content.html"> Assignment 4 </a></li>
+            </ul>
+        </nav>    
+        <main>
+            <div id="div1"> 
+            <img id="watch1" src="images/B57SmartWatch.jpg" alt="" onclick="purchaseBox(this.id)"/>
+            <p id="item1Text" onclick="moreInfo(this.id)" ondblclick="resetText()">Watch1</p>
+            </div>
+            
+            <div id="div2"> 
+            <img id="watch2" src="images/LGWatch.jpg" alt="" onclick="purchaseBox(this.id)"/>
+            <p id="item2Text" onclick="moreInfo(this.id)" ondblclick="resetText()">Watch2</p>            
+            </div>
+            
+            <div id="div3"> 
+            <img id="watch3" src="images/Mykronoz.jpg" alt="" onclick="purchaseBox(this.id)"/>
+            <p id="item3Text" onclick="moreInfo(this.id)" ondblclick="resetText()">Watch3</p>            
+            </div>
+            
+            <div id="div4"> 
+            <img id="watch4" src="images/NonameSmartWatch.jpeg" alt="" onclick="purchaseBox(this.id)"/>
+            <p id="item4Text" onclick="moreInfo(this.id)" ondblclick="resetText()">Watch4</p>            
+            </div>
+        </main>
+        <section>
+            <p id="totalOrders">Your total orders count is: 0</p>
+        
+        </section>
+        <footer>
+            <h4>Company name:Beyond Holo Inc.</h4>
+            <h4>Address Toronto, ON </h4>
+            <h4>Phone: 416 897 1779 </h4>
+            <h4>e-mail:matthew@beyondholo.ca</h4> 
+        </footer>
+    </body>
+</html>
